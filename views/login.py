@@ -12,7 +12,7 @@ layout = html.Div(
             className="container",
             children=[
                 dcc.Location(id='url_login', refresh=True),
-                html.Div('''Please log in to continue Krishna:''', id='h1'),
+                html.Div('''Please log in to continue :''', id='h1'),
                 html.Div(
                     # method='Post',
                     children=[
